@@ -3,7 +3,7 @@ import re
 
 
 PATTERNS = [
-    re.compile(r"(?i)(Q[2-8](?:_[A-Z0-9]+)?)"),
+    re.compile(r"(?i)(Q[2-8](?:_[A-Z0-9]+)*)"),
     re.compile(r"(?i)([2-8]bit)"),
     re.compile(r"(?i)(int[2-8])"),
 ]
