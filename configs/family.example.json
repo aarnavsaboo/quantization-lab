@@ -1,0 +1,16 @@
+{
+  "model_family": "local-instruct-family",
+  "runtime": "llama.cpp",
+  "variants": [
+    "models/model-Q4_K_M.gguf",
+    "models/model-Q5_K_M.gguf",
+    "models/model-Q6_K.gguf",
+    "models/model-Q8_0.gguf"
+  ],
+  "prompt_files": [
+    "prompts/summary.txt",
+    "prompts/retrieval.txt"
+  ],
+  "output_tokens": [64, 192],
+  "repeats": 3
+}

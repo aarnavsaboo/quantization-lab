@@ -1,0 +1,1 @@
+Summarize the main trade-offs between smaller quantized local models and larger local model variants for repeated inference workloads.
